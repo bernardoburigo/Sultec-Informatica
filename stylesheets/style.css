@@ -369,7 +369,7 @@ footer {
  
 }
 
-@media(max-width: 425px){
+@media(max-width: 480px){
    
    /* cabecario principal */
    .cabecalho, .logo{
@@ -398,6 +398,36 @@ footer {
         width: 80%;
         display: flex;
         justify-content: center;
+    }
+}
+
+@media(max-width: 1024px){
+    .sobre {
+        background-color: #f4f4f4;
+        padding: 50px 0;
+        text-align: center; /* Centraliza o texto */
+    }
+    
+    .titulo-sobre {
+        text-align: center;
+    }
+    
+    .texto-sobre {
+        text-align: center;
+        margin-top: 30px; /* Ajuste conforme necessário */
+    }
+    
+    .midia-sobre {
+        display: flex;
+        flex-direction: column;
+        align-items: center; /* Centraliza no eixo horizontal */
+        justify-content: center;
+        margin-top: 30px; /* Ajuste conforme necessário */
+    }
+    
+    .img-sobre {
+        max-width: 100%; /* Ajuste conforme necessário */
+        margin-top: 20px; /* Ajuste conforme necessário */
     }
 }
 
