@@ -216,9 +216,9 @@ nav ul li:hover:before {
     flex-direction: column;
     background-color: #fff;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    margin: 100px;
+    margin: 20px;
     padding: 1%;
-    width: 20%;
+    width: 30%;
     text-align: center;
     box-sizing: border-box;
     justify-content: center;
@@ -237,7 +237,6 @@ nav ul li:hover:before {
 
 .card-botao {
     transition-duration: 0.5s;
-    
     margin-top: -5%;
     justify-content: center;
     margin: 0 auto; 
@@ -339,28 +338,28 @@ footer {
     /* cabecario principal */
     .cabecalho, .logo{
         display: flex;
- }
+    }
 
 
     .cabecalho {
         flex-direction: row;
         align-items: center;
- }
+    }
 
     .cabecalho li {
         margin: 10px 10px;
         padding: 10px;
- }
+    }
 
     .cards-catalogo {
         display: flex;
         align-items: center;
- }
+    }
 
     .card-item {
         max-width: 100%;
         margin: 20px;
- }
+    }
  
 }
 
@@ -369,31 +368,31 @@ footer {
    /* cabecario principal */
    .cabecalho, .logo{
         display: flex;
- }
+    }
 
     .cabecalho {
         flex-direction: row;
         align-items: center;
-}
+    }
 
     .cabecalho li {
         margin: 10px 10px;
         padding: 10px;
-}
+    }
 
     .cards-catalogo{
         flex-direction: row;
- }
+    }
 
     .card-item{
         width: 80%;
- }
+    }
 
     .img-sobre img{
         width: 80%;
         display: flex;
         justify-content: center;
- }
+    }
 }
 
 /* icone do whatsapp */
