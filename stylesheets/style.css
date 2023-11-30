@@ -335,23 +335,65 @@ footer {
 
 /* Adaptação para diferentes tamanhos de tela */
 @media screen and (max-width: 768px) {
+
+    /* cabecario principal */
+    .cabecalho, .logo{
+        display: flex;
+ }
+
+
     .cabecalho {
-        flex-direction: column;
+        flex-direction: row;
         align-items: center;
-    }
+ }
 
     .cabecalho li {
-        margin: 10px 0;
-    }
+        margin: 10px 10px;
+        padding: 10px;
+ }
 
     .cards-catalogo {
-        flex-direction: column;
+        display: flex;
         align-items: center;
-    }
+ }
 
     .card-item {
         max-width: 100%;
-    }
+        margin: 20px;
+ }
+ 
+}
+
+@media(max-width: 425px){
+   
+   /* cabecario principal */
+   .cabecalho, .logo{
+        display: flex;
+ }
+
+    .cabecalho {
+        flex-direction: row;
+        align-items: center;
+}
+
+    .cabecalho li {
+        margin: 10px 10px;
+        padding: 10px;
+}
+
+    .cards-catalogo{
+        flex-direction: row;
+ }
+
+    .card-item{
+        width: 80%;
+ }
+
+    .img-sobre img{
+        width: 80%;
+        display: flex;
+        justify-content: center;
+ }
 }
 
 /* icone do whatsapp */
